@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Character">
+      <UniqueIdentifier>{08ab2141-7fe8-442c-8e15-7a475aeaefef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{3ba8744b-7082-4722-a2fe-ed3d8cccb539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shader">
+      <UniqueIdentifier>{f658e3ce-d9d4-4044-8178-846816600a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrameWork">
+      <UniqueIdentifier>{fe702ef3-8441-4892-a21a-d075fdb4b761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrameWork\Network">
+      <UniqueIdentifier>{a95758c4-79e0-4618-bde3-0ba5f167ddc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrameWork\GUI">
+      <UniqueIdentifier>{988fd4e5-e273-490c-bba4-cd7380af5e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{396a6c5b-0fc0-429e-8a81-e31ce28d1014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{014a6c0f-b542-4186-aa4e-338999332707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FrameWork">
+      <UniqueIdentifier>{5f0f5424-c779-4c9d-b555-a8d2f3c6b784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FrameWork\Network">
+      <UniqueIdentifier>{c6ee87f5-2813-4836-aa3f-39a1781d6022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FrameWork\GUI">
+      <UniqueIdentifier>{d13c244e-830e-462e-af54-c554a9e31fb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IPEndpoint.cpp">
+      <Filter>Source Files\FrameWork\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files\FrameWork\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files\FrameWork\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\includes\imgui\imgui_tables.cpp">
+      <Filter>Source Files\FrameWork\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\includes\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\FrameWork\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\includes\imgui\imgui.cpp">
+      <Filter>Source Files\FrameWork\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\includes\imgui\imgui_demo.cpp">
+      <Filter>Source Files\FrameWork\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\includes\imgui\imgui_draw.cpp">
+      <Filter>Source Files\FrameWork\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\includes\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\FrameWork\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\includes\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\FrameWork\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Spellbook.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files\FrameWork\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Header Files\FrameWork\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="msResult.h">
+      <Filter>Header Files\FrameWork\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IPVersion.h">
+      <Filter>Header Files\FrameWork\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IPEndpoint.h">
+      <Filter>Header Files\FrameWork\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="socketHandle.h">
+      <Filter>Header Files\FrameWork\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="sockOptions.h">
+      <Filter>Header Files\FrameWork\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\FrameWork\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\imgui\imgui_internal.h">
+      <Filter>Header Files\FrameWork\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\imgui\imstb_rectpack.h">
+      <Filter>Header Files\FrameWork\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\imgui\imstb_textedit.h">
+      <Filter>Header Files\FrameWork\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\imgui\imstb_truetype.h">
+      <Filter>Header Files\FrameWork\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\imgui\imconfig.h">
+      <Filter>Header Files\FrameWork\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\imgui\imgui.h">
+      <Filter>Header Files\FrameWork\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files\FrameWork\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files\FrameWork\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\includes\stb\stb_image.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Spellbook.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Resource Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\FrameWork</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vShader.vs">
+      <Filter>Resource Files\shader</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fShader.fs">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
